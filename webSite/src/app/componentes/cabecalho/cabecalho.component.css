@@ -1,49 +1,37 @@
 .cabecalho {
-    background: blue;
-    background-size: cover;
-  }
+  background: #31578b;
+  background-size: cover;
+  color: white;
+}
 
-  .cabecalho .logo {
-    width: 46%;
-    padding: 2rem 3rem;
-  }
+.cabecalho .logo {
+  margin-left: 500px;
+  width: 46%;
+  margin-bottom: 50px;
+}
 
-  .cabecalho .logo img {
-    width: 90%;
-    max-width: 350px;
-    margin-bottom: 2rem;
-  }
+.cabecalho a {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 2rem 3rem;
+}
 
-  .cabecalho .imagem{
-    width: 40%;
-  }
+.name {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
 
-  .cabecalho p {
-    font-size: 2rem;
-    color: #6BD1FF;
-  }
+.about {
+  text-align: center;
+  font-size: small;
+  padding: 1rem 2rem;
+}
 
-  .cabecalho a {
-    font-size: 20px;
-    color: #6BD1FF;
-    text-align: center;
-    padding: 2rem 3rem;
-  }
+img {
+  width: 150px; /* largura desejada */
+  height: auto; /* para manter a proporção da imagem */
+}
 
-  @media (max-width: 576px) {
-    .cabecalho .logo {
-      padding: 2rem;
-    }
-    .cabecalho p {
-      font-size: 1.5rem
-    }
-  }
 
-  @media (max-width: 768px) {
-    .cabecalho .logo {
-      width: 90%;
-    }
-    .cabecalho .imagem {
-      display: none;
-    }
-  }
